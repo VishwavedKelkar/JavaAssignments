@@ -1,0 +1,49 @@
+Day02:
+Assignment - 2
+1. Create Emp based organization structure with :  Emp , Mgr , Worker under com.app.org package
+ Emp state: id(int), name, deptId(string) , basic(double)
+ Mgr state: id,name,basic,deptId , performanceBonus
+   - compute net salary (formula: basic+performanceBonus) 
+   - get a performance bonus.
+
+ Worker state: id,name,basic,deptId,hoursWorked,hourlyRate
+-  get worker details -- via toString
+-  compute net salary 
+- get hourlyRate of the worker worker.(getter)
+
+
+Write TestOrganization in "tester" package. Provide following options. Run the application till "exit"
+1. Hire Manager
+2. Hire Worker 
+3. Display information of all employees , including net salary using for-each loop. 
+4. Update basic salary
+5. Exit
+
+Day 03
+Assignment - 3
+
+1. Store book details in a library using array data structure and do following operations
+Book details: isbn(string),category(enum),price(double),publishDate,authorName(string),quantity(int)
+Unique ID : isbn
+Create a Tester : BookManagement
+Display All books
+Find particular book
+Add new book
+Remove book
+Edit book details(quantity)
+
+Sample data:
+book-0001 science 500 12-3-2020 Rama 10
+book-0009 fiction 400 12-12-2010 Kishor 20
+book-0003 science 1500 1-3-2021 Shubham 15
+book-0005 science 600 12-3-2020 Rama 12
+book-0004 health 700 12-3-2020 Rama 30
+
+
+2. Implement above application using ArrayList then hashing based data structure : HashSet and explore other collection classes
+along with additional functionalities:
+sort the book on the basis of isbn number then on the basis of author.
+and also add following validations:
+1. ISBN should be unique.
+2. category  : science , fiction, health ,History, Mystery,Biography
+3. publishDate : in this financial year (1st Apr 2023 to 31Mar 2024) 

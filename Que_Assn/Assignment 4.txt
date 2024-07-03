@@ -1,0 +1,24 @@
+Assignment 4
+
+
+1. Copy above Book store application and extend the application to persist data in file.
+
+
+
+2. Create Student class : rollNo(string),name,dob(LocalDate),subject(enum),gpa(double)
+
+Create Subject enum : JAVA,DBT,ANGULAR,REACT,SE
+Add constr & to string & getters..
+
+Add SerDeSerUtils (Serialization and deSerialization) i/f :
+1. Add static method to store student details to a bin file , using serialization
+2. Add static method to restore student details from a bin file , using de-serialization
+
+Create a Tester : StudentManagement
+Retrieve student details
+Display all student details
+Admit New Student
+Cancel Admission
+Exit
+
+Before terminating , store student details in a binary file.
